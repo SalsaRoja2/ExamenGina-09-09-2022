@@ -1,9 +1,209 @@
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+
+                    .mainHead a:hover {
+                        text-decoration: none;
+                    }
+
+                    .topHeader {
+                        background: #384452;
+                        color: #fff;
+                        font-family: 'Roboto', sans-serif;
+                    }
+
+                    .familyMenu {
+                        font-size: .85em;
+                        float: left;
+                        margin-left: 75px;
+                    }
+
+                    .familyMenu a,
+                    .familyMenu a:visited,
+                    .addMenu a,
+                    .addMenu a:visited,
+                    .familyMenu a:hover,
+                    .addMenu a:hover {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                    .addMenu a:hover {
+
+                        cursor: pointer;
+                    }
+
+                    .familyMenu a {
+                        padding: 10px 15px 5px;
+                        display: inline-block
+                    }
+
+                    .familyMenu a:hover,
+                    .familyMenu a.current {
+                        background: #0276BA;
+                        font-weight: 400;
+                    }
+
+                    .addMenu {
+                        float: right;
+                        font-size: .75em;
+                        display: block;
+                        margin-top: 10px;
+                    }
+
+                    .addMenu>a {
+                        margin-left: 15px;
+                    }
+
+                    .addMenu>a:after {
+                        content: '|';
+                        margin-left: 10px;
+                    }
+
+                    .addMenu span a {
+                        margin-left: 10px;
+                    }
+
+                    .topHeader:after {
+                        display: table;
+                        content: ' ';
+                        clear: both;
+                    }
+
+                    @media only screen and (max-width: 840px) {
+                        .addMenu>a {
+                            margin-left: 5px;
+                        }
+                    }
+
+                    <header class="mainHead"><div class="menuWrap"><style>.mainHead a:hover {
+                        text-decoration: none;
+                    }
+
+                    .topHeader {
+                        background: #384452;
+                        color: #fff;
+                        font-family: 'Roboto', sans-serif;
+                    }
+
+                    .familyMenu {
+                        font-size: .85em;
+                        float: left;
+                        margin-left: 75px;
+                    }
+
+                    .familyMenu a,
+                    .familyMenu a:visited,
+                    .addMenu a,
+                    .addMenu a:visited,
+                    .familyMenu a:hover,
+                    .addMenu a:hover {
+                        color: #fff;
+                    }
+
+                    .addMenu a:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+
+                    .familyMenu a {
+                        padding: 10px 15px 5px;
+                        display: inline-block
+                    }
+
+                    .familyMenu a:hover,
+                    .familyMenu a.current {
+                        background: #0276BA;
+                        font-weight: 400;
+                    }
+
+                    .addMenu {
+                        float: right;
+                        font-size: .75em;
+                        display: block;
+                        margin-top: 10px;
+                    }
+
+                    .addMenu>a {
+                        margin-left: 15px;
+                    }
+
+                    .addMenu>a:after {
+                        content: '|';
+                        margin-left: 10px;
+                    }
+
+                    .addMenu span a {
+                        margin-left: 10px;
+                    }
+
+                    .topHeader:after {
+                        display: table;
+                        content: ' ';
+                        clear: both;
+                    }
+
+                    @media only screen and (max-width: 840px) {
+                        .addMenu>a {
+                            margin-left: 5px;
+                        }
+                    }
+
+
+
+/*  */
+/* segunda parte* segunda parte segunda parte*/
+
+#content {
+                                padding-top: 100px;
+                            } 
+
+                            .mainHead {
+                                position: absolute;
+                                width: 100%;
+                                
+                            }
+
+                            .menuWrap {
+                                position: relative;
+                            }
+
+                            /*PRINCIPAL MENU*/
+                            .menuContainer {
+                                font-family: 'Roboto', arial;
+                                font-size: .85em;
+                                color: #55667a;
+                                background: #fff;
+                                
+                            }
+
+                            .menuContainer>.fullBox {
+                                border-bottom: 5px solid #e0e0e0;
+                                max-height: 62px;
+                            }
+
+                            .menuContainer .fullBox:after {
+                                content: ' ';
+                                display: table;
+                                clear: both;
+                            }
+
+                            .logoTmx {
+                                width: 81px;
+                                height: 68px;
+                                display: block;
+                            }
+
+                        
+                       
+                          
+
+                           
+                           
+                           
+
+                            
+                            
+
+                            
+
+                                
+                                
+                            }
