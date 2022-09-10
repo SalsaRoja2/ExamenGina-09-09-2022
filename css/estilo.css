@@ -1,150 +1,149 @@
+.mainHead a:hover {
+    text-decoration: none;
+}
 
-                    .mainHead a:hover {
-                        text-decoration: none;
-                    }
+.topHeader {
+    background: #384452;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
 
-                    .topHeader {
-                        background: #384452;
-                        color: #fff;
-                        font-family: 'Roboto', sans-serif;
-                    }
+.familyMenu {
+    font-size: .85em;
+    float: left;
+    margin-left: 75px;
+}
 
-                    .familyMenu {
-                        font-size: .85em;
-                        float: left;
-                        margin-left: 75px;
-                    }
+.familyMenu a,
+.familyMenu a:visited,
+.addMenu a,
+.addMenu a:visited,
+.familyMenu a:hover,
+.addMenu a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 
-                    .familyMenu a,
-                    .familyMenu a:visited,
-                    .addMenu a,
-                    .addMenu a:visited,
-                    .familyMenu a:hover,
-                    .addMenu a:hover {
-                        color: #fff;
-                        text-decoration: none;
-                    }
+.addMenu a:hover {
 
-                    .addMenu a:hover {
+    cursor: pointer;
+}
 
-                        cursor: pointer;
-                    }
+.familyMenu a {
+    padding: 10px 15px 5px;
+    display: inline-block
+}
 
-                    .familyMenu a {
-                        padding: 10px 15px 5px;
-                        display: inline-block
-                    }
+.familyMenu a:hover,
+.familyMenu a.current {
+    background: #0276BA;
+    font-weight: 400;
+}
 
-                    .familyMenu a:hover,
-                    .familyMenu a.current {
-                        background: #0276BA;
-                        font-weight: 400;
-                    }
+.addMenu {
+    float: right;
+    font-size: .75em;
+    display: block;
+    margin-top: 10px;
+}
 
-                    .addMenu {
-                        float: right;
-                        font-size: .75em;
-                        display: block;
-                        margin-top: 10px;
-                    }
+.addMenu > a {
+    margin-left: 15px;
+}
 
-                    .addMenu>a {
-                        margin-left: 15px;
-                    }
+.addMenu > a:after {
+    content: '|';
+    margin-left: 10px;
+}
 
-                    .addMenu>a:after {
-                        content: '|';
-                        margin-left: 10px;
-                    }
+.addMenu span a {
+    margin-left: 10px;
+}
 
-                    .addMenu span a {
-                        margin-left: 10px;
-                    }
+.topHeader:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
 
-                    .topHeader:after {
-                        display: table;
-                        content: ' ';
-                        clear: both;
-                    }
+@media only screen and (max-width: 840px) {
+    .addMenu > a {
+        margin-left: 5px;
+    }
+}
 
-                    @media only screen and (max-width: 840px) {
-                        .addMenu>a {
-                            margin-left: 5px;
-                        }
-                    }
+.mainHead a:hover {
+    text-decoration: none;
+}
 
-                    <header class="mainHead"><div class="menuWrap"><style>.mainHead a:hover {
-                        text-decoration: none;
-                    }
+.topHeader {
+    background: #384452;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
 
-                    .topHeader {
-                        background: #384452;
-                        color: #fff;
-                        font-family: 'Roboto', sans-serif;
-                    }
+.familyMenu {
+    font-size: .85em;
+    float: left;
+    margin-left: 75px;
+}
 
-                    .familyMenu {
-                        font-size: .85em;
-                        float: left;
-                        margin-left: 75px;
-                    }
+.familyMenu a,
+.familyMenu a:visited,
+.addMenu a,
+.addMenu a:visited,
+.familyMenu a:hover,
+.addMenu a:hover {
+    color: #fff;
+}
 
-                    .familyMenu a,
-                    .familyMenu a:visited,
-                    .addMenu a,
-                    .addMenu a:visited,
-                    .familyMenu a:hover,
-                    .addMenu a:hover {
-                        color: #fff;
-                    }
+.addMenu a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
-                    .addMenu a:hover {
-                        text-decoration: underline;
-                        cursor: pointer;
-                    }
+.familyMenu a {
+    padding: 10px 15px 5px;
+    display: inline-block
+}
 
-                    .familyMenu a {
-                        padding: 10px 15px 5px;
-                        display: inline-block
-                    }
+.familyMenu a:hover,
+.familyMenu a.current {
+    background: #0276BA;
+    font-weight: 400;
+}
 
-                    .familyMenu a:hover,
-                    .familyMenu a.current {
-                        background: #0276BA;
-                        font-weight: 400;
-                    }
+.addMenu {
+    float: right;
+    font-size: .75em;
+    display: block;
+    margin-top: 10px;
+}
 
-                    .addMenu {
-                        float: right;
-                        font-size: .75em;
-                        display: block;
-                        margin-top: 10px;
-                    }
+.addMenu > a {
+    margin-left: 15px;
+}
 
-                    .addMenu>a {
-                        margin-left: 15px;
-                    }
+.addMenu > a:after {
+    content: '|';
+    margin-left: 10px;
+}
 
-                    .addMenu>a:after {
-                        content: '|';
-                        margin-left: 10px;
-                    }
+.addMenu span a {
+    margin-left: 10px;
+}
 
-                    .addMenu span a {
-                        margin-left: 10px;
-                    }
+.topHeader:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
 
-                    .topHeader:after {
-                        display: table;
-                        content: ' ';
-                        clear: both;
-                    }
-
-                    @media only screen and (max-width: 840px) {
-                        .addMenu>a {
-                            margin-left: 5px;
-                        }
-                    }
+@media only screen and (max-width: 840px) {
+    .addMenu > a {
+        margin-left: 5px;
+    }
+}
 
 
 
@@ -152,58 +151,99 @@
 /* segunda parte* segunda parte segunda parte*/
 
 #content {
-                                padding-top: 100px;
-                            } 
+    padding-top: 100px;
+}
 
-                            .mainHead {
-                                position: absolute;
-                                width: 100%;
-                                
-                            }
+.mainHead {
+    position: relative;
+    width: 100%;
 
-                            .menuWrap {
-                                position: relative;
-                            }
+}
 
-                            /*PRINCIPAL MENU*/
-                            .menuContainer {
-                                font-family: 'Roboto', arial;
-                                font-size: .85em;
-                                color: #55667a;
-                                background: #fff;
-                                
-                            }
+.menuWrap {
+    position: relative;
+}
 
-                            .menuContainer>.fullBox {
-                                border-bottom: 5px solid #e0e0e0;
-                                max-height: 62px;
-                            }
+/*PRINCIPAL MENU*/
+.menuContainer {
+    font-family: 'Roboto', arial;
+    font-size: .85em;
+    color: #55667a;
+    background: #fff;
 
-                            .menuContainer .fullBox:after {
-                                content: ' ';
-                                display: table;
-                                clear: both;
-                            }
+}
 
-                            .logoTmx {
-                                width: 81px;
-                                height: 68px;
-                                display: block;
-                            }
+.menuContainer > .fullBox {
+    border-bottom: 5px solid #e0e0e0;
+    max-height: 62px;
+}
 
-                        
-                       
-                          
+.menuContainer .fullBox:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
 
-                           
-                           
-                           
+.logoTmx {
+    width: 81px;
+    height: 68px;
+    display: block;
+}
 
-                            
-                            
 
-                            
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
 
-                                
-                                
-                            }
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/*
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+*/
+.grid-inicio {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#imagenClarovideo {
+    width: 100%;
+    height: auto;
+}
+
+.grid-botones {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.imagenGrid {
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
