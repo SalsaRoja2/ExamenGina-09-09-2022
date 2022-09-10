@@ -5,39 +5,63 @@
 }
 
  .logoTmx { width: 100%;
-              width: 71px;
+                   width: 71px;
               height: 64px;
               display:inline-block;
+     margin: -10px;
      float: left;
      
                             }
 ul, ol{
     list-style: none;
+    text-decoration: none;
     
+}
+ul>li:hover{
+    text-decoration: underline;
+    text-decoration-color:red 5px;
 }
 .nav li a{
     background-color:white;
     color:grey;
     text-decoration: none;
+    
     padding: 10px 10px;
     display:block;
     
 }
 .nav li a:hover{
-    background-color: lightsteelblue;
+    background-color: darkgrey;
 }
 .nav > li{
-    display: inline-block;
+    display:inline-block;
 }
 .nav li ul{
     display: none;
     position: absolute;
-    min-width: 140px;
+    min-width: 40px;
     
 }
 .nav li:hover > ul{
     display:block; 
     text-decoration: underline;
     text-decoration-color: red;
+  
     
+}
+.nav li ul li{
+    left: -40px;
+    background-color: black;
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top:0px;
+}
+.usuario{
+    float: right;
+    margin-right: 100px
+}
+.sublista{
+  background-color: black;
 }
