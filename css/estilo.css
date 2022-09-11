@@ -8,12 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-                    .topHeader {
-                        background: #384452;
-                        color: #fff;
-                        font-family: 'Roboto', sans-serif;
-                    
-                    }
+
 .familyMenu {
     font-size: .85em;
     float: left;
@@ -36,7 +31,7 @@
 }
 
 .familyMenu a {
-    padding: 10px 15px 5px;
+    padding: 0px;
     display: inline-block
 }
 
@@ -82,10 +77,11 @@
     text-decoration: none;
 }
 
-                    <header class="mainHead"><div class="menuWrap"><style>.mainHead a:hover {
-                        text-decoration: none;
-                        position:static;
-                    }
+.mainHead a:hover {
+    text-decoration: none;
+    position: static;
+}
+
 .topHeader {
     background: #384452;
     color: #fff;
@@ -161,9 +157,10 @@
 /* segunda parte* segunda parte segunda parte*/
 
 
-#content {
-    padding-top: 100px;
+.content {
+    padding-top: 10px;
 }
+
 
 .mainHead {
     position: relative;
@@ -174,6 +171,8 @@
 .menuWrap {
     background: #fff;
     position: relative;
+    /* width: auto;*/
+
 }
 
 /*PRINCIPAL MENU*/
@@ -247,15 +246,9 @@
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
+#wrapper {
+    width: auto;
+    padding: 0px;
+    margin: auto;
 
 }

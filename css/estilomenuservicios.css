@@ -1,9 +1,10 @@
 #header {
-    margin: auto;
+    margin: 0px;
     width: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.mainHead{
+
+.mainHead {
     position: fixed;
     width: 100%;
 }
@@ -76,7 +77,7 @@ ul > li:hover {
 
 .usuario {
     float: right;
-    margin-right:20px;
+    margin-right: 20px;
     position: relative;
 }
 
@@ -86,45 +87,44 @@ ul > li:hover {
 
 
 .buscar {
-  position: relative;
-  padding: 10px;
+    position: relative;
+    padding: 10px;
     top: -10px;
 }
 
 .buscar input {
-  width: 0;
-  height: 40px;
-  padding: 0 20px;
-  font-size: 12px;
+    width: 0;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
 
-  color: #222;
-  outline: none;
-  border: 1px solid silver;
-  border-radius: 30px;
-  transition: all 0.6s ease;
+    color: #222;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
 }
 
 .btn {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  top: 7px;
-  right:8px;
-  position: absolute;
-  background:#199CD7;
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  border-radius: 50%;
-  cursor: pointer;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    top: 7px;
+    right: 8px;
+    position: absolute;
+    background: #199CD7;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .buscar:hover input {
-  width: 99px;
-    position:static;
+    width: 99px;
+    position: static;
 }
 
 .buscar input:focus {
-  width: 240px;
+    width: 240px;
 }
-
