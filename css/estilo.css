@@ -1,8 +1,8 @@
-#wrapper{
+#wrapper {
     position: absolute;
     top: 0px;
-    right: 1500px;
-    }
+    right: 1px;
+}
 
 
 .mainHead a:hover {
@@ -13,7 +13,7 @@
     background: #384452;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    top:px;
+    top: px;
 }
 
 
@@ -159,7 +159,7 @@
 
 
 .mainHead {
-   
+
     position: relative;
     width: 100%;
 
@@ -241,11 +241,4 @@
 .imagenGrid {
     width: 50%;
     height: auto;
-}
-
-#wrapper {
-    width: auto;
-    padding: 0px;
-    margin: auto;
-
 }
