@@ -28,7 +28,7 @@ function Prev(){
     setTimeout(function(){
                slider.style.transition ="none";
                slider.insertAdjacentElement('afterbegin', sliderSectionLast);
-    slider.style.marginLeft = "-100%";
+    slider.style.marginLeft = "-200%";
     
                }, 500);
 
@@ -40,7 +40,7 @@ btnright.addEventListener('click', function(){
 btnleft.addEventListener('click', function(){
     Prev();
 });
-
+/*
 setInterval(function(){
             Next();
-            },1000);
+            },1000);*/

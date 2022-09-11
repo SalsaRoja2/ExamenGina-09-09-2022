@@ -7,6 +7,9 @@
 .mainHead {
     position: fixed;
     width: 100%;
+    margin-left: 10px;
+    margin-right: -20px;
+    
 }
 
 .logoTmx {

@@ -1,12 +1,9 @@
 #wrapper {
     position: absolute;
     top: 0px;
-    right: 1px;
+    right: 0px;
 }
 
-#clarogrid {
-    padding-top: 80px;
-}
 
 
 .mainHead a:hover {
@@ -17,15 +14,10 @@
     background: #384452;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    top: px;
+   
 }
 
 
-.familyMenu {
-    font-size: .85em;
-    float: left;
-    margin-left: 75px;
-}
 
 .familyMenu a,
 .familyMenu a:visited,
@@ -43,7 +35,7 @@
 }
 
 .familyMenu a {
-    padding: 0px;
+    padding: 10px;
     display: inline-block
 }
 
@@ -53,43 +45,12 @@
     font-weight: 400px;
 }
 
-.addMenu {
-    float: right;
-    font-size: .75em;
-    display: block;
-    margin-top: px;
-}
-
-.addMenu > a {
-    margin-left: 15px;
-}
-
-.addMenu > a:after {
-    content: '|';
-    margin-left: 10px;
-}
-
-.addMenu span a {
-    margin-left: 10px;
-}
-
-.topHeader:after {
-    display: table;
-    content: ' ';
-    clear: both;
-}
-
-@media only screen and (max-width: 840px) {
-    .addMenu > a {
-        margin-left: 5px;
-    }
-}
 
 
-.mainHead a:hover {
-    text-decoration: none;
-    position: static;
-}
+
+
+
+
 
 .topHeader {
     background: #384452;
@@ -100,7 +61,7 @@
 .familyMenu {
     font-size: .85em;
     float: left;
-    margin-left: 75px;
+    margin-left: 85px;
 }
 
 .familyMenu a,
@@ -172,7 +133,8 @@
 .menuWrap {
     background: #fff;
     position: relative;
-    /* width: auto;*/
+    width: auto;
+    margin-right: 20px;
 
 }
 
