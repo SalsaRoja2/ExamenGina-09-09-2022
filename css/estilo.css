@@ -2,7 +2,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    left:;
+    left: ;
 }
 
 
@@ -15,7 +15,7 @@
     background: #384452;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-   
+
 }
 
 
@@ -191,7 +191,7 @@
 */
 .grid-inicio {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
 
 #imagenClarovideo {
@@ -200,11 +200,11 @@
 }
 
 .grid-botones {
-   
-    position: absolute;
+
+    /*position: absolute;*/
     background-color: black;
     right: 80px;
-    top:  400px;
+    top: 400px;
     background-blend-mode: color;
     grid-column-start: 3;
     grid-column-end: 3;
