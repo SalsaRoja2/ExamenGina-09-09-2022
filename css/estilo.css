@@ -1,3 +1,10 @@
+#wrapper{
+    position: absolute;
+    top: 0px;
+    right: 1500px;
+    }
+
+
 .mainHead a:hover {
     text-decoration: none;
 }
@@ -6,6 +13,7 @@
     background: #384452;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    top:px;
 }
 
 
@@ -38,14 +46,14 @@
 .familyMenu a:hover,
 .familyMenu a.current {
     background: #0276BA;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .addMenu {
     float: right;
     font-size: .75em;
     display: block;
-    margin-top: 10px;
+    margin-top: px;
 }
 
 .addMenu > a {
@@ -73,9 +81,6 @@
     }
 }
 
-.mainHead a:hover {
-    text-decoration: none;
-}
 
 .mainHead a:hover {
     text-decoration: none;
@@ -108,16 +113,7 @@
     cursor: pointer;
 }
 
-.familyMenu a {
-    padding: 10px 15px 5px;
-    display: inline-block
-}
 
-.familyMenu a:hover,
-.familyMenu a.current {
-    background: #0276BA;
-    font-weight: 400;
-}
 
 .addMenu {
     float: right;
@@ -163,6 +159,7 @@
 
 
 .mainHead {
+   
     position: relative;
     width: 100%;
 
