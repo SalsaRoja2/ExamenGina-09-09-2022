@@ -5,8 +5,7 @@
     width: 80%;
     max-width: 800px;
     margin:auto;
-    overflow:hidden;
-    
+    overflow:hidden;    
     box-shadow: 0 0 0 10px #fff;
     
     
@@ -35,11 +34,12 @@
 }
 .slider__btn{
     position: absolute;
+    z-index:auto ;
     width: 30px;
     height: 30px;
     background: rgba(255, 255, 255, 0.6);
-    top:50;
-    transform: translateY(-40%);
+    
+    transform: translateY(-50%);
     font-family: monospace;
     text-align: center;
     border-radius: 50%;
@@ -54,9 +54,9 @@
 }
 .slider__btn--left{
     left:center;
-    top: 22%;
+    top: 15%;
 }
 .slider__btn--right{
     right:29.5%;
-    top: 22%;
+    top: 15%;
 }

@@ -2,6 +2,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    left:;
 }
 
 
@@ -133,8 +134,7 @@
 .menuWrap {
     background: #fff;
     position: relative;
-    width: auto;
-    margin-right: 20px;
+    /* width: auto;*/
 
 }
 
