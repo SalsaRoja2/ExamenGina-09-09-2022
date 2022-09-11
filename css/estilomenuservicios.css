@@ -3,6 +3,10 @@
     width: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.mainHead{
+    position: fixed;
+    width: 100%;
+}
 
 .logoTmx {
     width: 100%;
