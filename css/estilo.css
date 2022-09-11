@@ -203,14 +203,14 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+    background-color: #fff;
+    padding: 100px;
 }
 
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     font-size: 25px;
 }
 
@@ -225,15 +225,21 @@
 */
 .grid-inicio {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 
 #imagenClarovideo {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
 .grid-botones {
+   
+    position: absolute;
+    background-color: black;
+    right: 80px;
+    top:  400px;
+    background-blend-mode: color;
     grid-column-start: 3;
     grid-column-end: 3;
 }
