@@ -1,8 +1,12 @@
 #wrapper {
     position: absolute;
     top: 0px;
-   right: 1px;
-    }
+    right: 1px;
+}
+
+#clarogrid {
+    padding-top: 80px;
+}
 
 
 .mainHead a:hover {
