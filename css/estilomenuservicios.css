@@ -1,67 +1,126 @@
-#header{
+#header {
     margin: auto;
     width: 100px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
- .logoTmx { width: 100%;
-                   width: 71px;
-              height: 64px;
-              display:inline-block;
-     margin: -10px;
-     float: left;
-     
-                            }
-ul, ol{
+.logoTmx {
+    width: 100%;
+    width: 71px;
+    height: 64px;
+    display: inline-block;
+    margin: -10px;
+    float: left;
+
+}
+
+ul,
+ol {
     list-style: none;
     text-decoration: none;
-    
+
 }
-ul>li:hover{
+
+ul > li:hover {
     text-decoration: underline;
-    text-decoration-color:red 5px;
+    text-decoration-color: red 5px;
 }
-.nav li a{
-    background-color:white;
-    color:grey;
+
+.nav li a {
+    background-color: white;
+    color: grey;
     text-decoration: none;
-    
+
     padding: 10px 10px;
-    display:block;
-    
+    display: block;
+
 }
-.nav li a:hover{
+
+.nav li a:hover {
     background-color: darkgrey;
 }
-.nav > li{
-    display:inline-block;
+
+.nav > li {
+    display: inline-block;
 }
-.nav li ul{
+
+.nav li ul {
     display: none;
     position: absolute;
     min-width: 40px;
-    
+
 }
-.nav li:hover > ul{
-    display:block; 
+
+.nav li:hover > ul {
+    display: block;
     text-decoration: underline;
     text-decoration-color: red;
-  
-    
+
+
 }
-.nav li ul li{
+
+.nav li ul li {
     left: -40px;
     background-color: black;
     position: relative;
 }
-.nav li ul li ul{
+
+.nav li ul li ul {
     right: -140px;
-    top:0px;
+    top: 0px;
 }
-.usuario{
+
+.usuario {
     float: right;
-    margin-right: 100px
+    margin-right:20px;
+    position: relative;
 }
-.sublista{
-  background-color: black;
+
+.sublista {
+    background-color: black;
 }
+
+
+.buscar {
+  position: relative;
+  padding: 10px;
+    top: -10px;
+}
+
+.buscar input {
+  width: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 12px;
+
+  color: #222;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  top: 7px;
+  right:8px;
+  position: absolute;
+  background:#199CD7;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buscar:hover input {
+  width: 99px;
+    position:static;
+}
+
+.buscar input:focus {
+  width: 240px;
+}
+

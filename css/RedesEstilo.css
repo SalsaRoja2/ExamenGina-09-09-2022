@@ -1,0 +1,31 @@
+
+
+.social{
+    position: fixed;
+    left: 95%;
+    top:300px;
+    z-index: 1000;
+    
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li a{
+    display: inline-block;
+    width: 60px;
+    color: black;
+    background: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+
+.social ul li a:hover{
+    display: inline-block;
+    color:deepskyblue;
+    
+    background: grey;
+    text-decoration: none;
+}

@@ -75,6 +75,7 @@
 
                     <header class="mainHead"><div class="menuWrap"><style>.mainHead a:hover {
                         text-decoration: none;
+                        position:static;
                     }
 
                     .topHeader {
