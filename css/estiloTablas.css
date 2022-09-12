@@ -1,0 +1,167 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+div .mainHead {
+    position: fixed;
+    width: 100%;
+}
+
+.mainHead a:hover {
+    text-decoration: none;
+}
+
+.topHeader {
+    background: #384452;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.familyMenu a,
+.familyMenu a:visited,
+.addMenu a,
+.addMenu a:visited,
+.familyMenu a:hover,
+.addMenu a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.addMenu a:hover {
+    cursor: pointer;
+}
+
+.familyMenu a {
+    padding: 10px;
+    display: inline-block
+}
+
+.familyMenu a:hover,
+.familyMenu a.current {
+    background: #0276BA;
+    font-weight: 400px;
+}
+
+.topHeader {
+    background: #384452;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.familyMenu {
+    font-size: .85em;
+    float: left;
+    margin-left: 85px;
+}
+
+.familyMenu a,
+.familyMenu a:visited,
+.addMenu a,
+.addMenu a:visited,
+.familyMenu a:hover,
+.addMenu a:hover {
+    color: #fff;
+}
+
+.addMenu a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.addMenu {
+    float: right;
+    font-size: .75em;
+    display: block;
+    margin-top: 10px;
+}
+
+.addMenu > a {
+    margin-left: 15px;
+}
+
+.addMenu > a:after {
+    content: '|';
+    margin-left: 10px;
+}
+
+.addMenu span a {
+    margin-left: 10px;
+}
+
+.topHeader:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
+
+@media only screen and (max-width: 840px) {
+    .addMenu > a {
+        margin-left: 5px;
+    }
+}
+
+
+
+/*  */
+/* segunda parte* segunda parte segunda parte*/
+
+
+.content {
+    padding-top: 10px;
+}
+
+
+.mainHead {
+
+    position: relative;
+    width: 100%;
+
+}
+
+.menuWrap {
+    background: #fff;
+    position: relative;
+    /* width: auto;*/
+
+}
+
+/*PRINCIPAL MENU*/
+.menuContainer {
+    font-family: 'Roboto', arial;
+    font-size: .85em;
+    color: #55667a;
+    background: #fff;
+
+}
+
+.menuContainer > .fullBox {
+    border-bottom: 5px solid #e0e0e0;
+    max-height: 62px;
+}
+
+.menuContainer .fullBox:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.logoTmx {
+    width: 81px;
+    height: 68px;
+    display: block;
+}
+
+/* Padding para que no se amontone arriba*/
+.tablas {
+    padding-top: 100px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
