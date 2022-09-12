@@ -1,3 +1,7 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+
+}
 #wrapper {
     position: absolute;
     top: 0px;
@@ -5,7 +9,10 @@
     left:;
 }
 
-
+div .mainHead{
+    position: fixed;
+    width:100%;
+}
 
 .mainHead a:hover {
     text-decoration: none;
@@ -176,24 +183,31 @@
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 0px;
+    padding: px;
     font-size: 25px;
+    
 }
 
-/*
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 30px;
-    font-size: 30px;
-    text-align: center;
-}
-*/
+
+
 .grid-inicio {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
-
+.boton{
+     width: 150px;
+    height: 35px;
+    line-height: 25px;
+    top: 7px;
+    right: 8px;
+    background: red;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 5%;
+    cursor: pointer;
+    
+}
 #imagenClarovideo {
     width: 80%;
     height: auto;
@@ -201,7 +215,6 @@
 
 .grid-botones {
    
-    position: absolute;
     background-color: black;
     right: 80px;
     top:  400px;
@@ -211,6 +224,7 @@
 }
 
 .imagenGrid {
-    width: 50%;
+    width: 30%;
     height: auto;
-}
+    display: inline-block;
+ 

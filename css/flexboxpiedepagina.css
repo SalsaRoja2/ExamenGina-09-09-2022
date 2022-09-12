@@ -1,16 +1,7 @@
-/*
-* {
-    box-sizing: border-box;
-    font-family: ’Lato’, sans-serif;
-    margin: 0; 
-    padding: 0;
+body{
+    background: #E9E9E9;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
 .container {
     flex: 1;    /* same as flex-grow: 1; */
 }
@@ -19,19 +10,30 @@ ul {
     padding-left: 0;
 }
 footer {
-    background-color: #555;
-    color: #bbb;
+    background-color: #EDE7E6;
+    color: deepskyblue;
     line-height: 1.5;
 }
+
 footer a {
     text-decoration: none;
-    color: #eee;
+    color: #000;
 }
 a:hover {
     text-decoration: underline;
 }
+.titulo{
+    color: azure;
+    position: absolute;
+    top:53%;
+    font-size: 40px;
+    
+    
+}
+
+
 .ft-title {
-    color: #fff;
+    color: #000;
     font-family: ’Merriweather’, serif;
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
@@ -56,7 +58,33 @@ a:hover {
     }
 }
 
-
+.ft-title-top {
+    color: #0067EE;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+.ft-top{
+    padding: 5rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: #081423;
+    align-content: center;
+}
+.ft-top-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-top {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-top {
+        justify-content: space-evenly;
+    }
+}
 
 form {
     display: flex;
@@ -68,7 +96,7 @@ input[type="email"] {
     margin-top: 0.3125rem;
 }
 input[type="submit"] {
-    background-color: #00d188;
+    background-color: blue;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -76,24 +104,11 @@ input[type="submit"] {
     margin-top: 0.3125rem;
 }
 
-.ft-social {
-    padding: 0 1.875rem 1.25rem;
-}
-.ft-social-list {
-    display: flex;
-    justify-content: center;
-    border-top: 1px #777 solid; 
-    padding-top: 1.25rem;
-}
-.ft-social-list li {
-    margin: 0.5rem;
-    font-size: 1.25rem;
-}
 
 
 .ft-legal {
-    padding: 0.9375rem 1.875rem;
-    background-color: #333;
+    padding: .1px;
+    background-color: #fff;
 }
 .ft-legal-list {
     width: 100%;
@@ -108,4 +123,15 @@ input[type="submit"] {
 .ft-legal-list li:nth-last-child(2) {
     flex: 1;       /* same as flex-grow: 1; */
 }
+
+.ft-legal-list2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list2 li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
 */

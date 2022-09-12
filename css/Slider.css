@@ -47,6 +47,7 @@
     
     
     
+    
 }
 .slider__btn:hover{
     background: grey;
@@ -57,6 +58,6 @@
     top: 15%;
 }
 .slider__btn--right{
-    right:29.5%;
+    right:40%;
     top: 15%;
 }
