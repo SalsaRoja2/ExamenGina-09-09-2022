@@ -6,7 +6,7 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
-    left:;
+    left: ;
 }
 
 div .mainHead{
@@ -22,7 +22,7 @@ div .mainHead{
     background: #384452;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-   
+
 }
 
 
@@ -217,7 +217,7 @@ div .mainHead{
    
     background-color: black;
     right: 80px;
-    top:  400px;
+    top: 400px;
     background-blend-mode: color;
     grid-column-start: 3;
     grid-column-end: 3;
