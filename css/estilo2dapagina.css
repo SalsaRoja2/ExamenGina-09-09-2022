@@ -2,12 +2,7 @@ body{
     font-family: 'Philosopher', sans-serif;
     
 }
-#wrapper {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: ;
-}
+
 
 div .mainHead{
     position: fixed;
@@ -170,61 +165,3 @@ div .mainHead{
     height: 68px;
     display: block;
 }
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: #fff;
-    padding: 100px;
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: px;
-    font-size: 25px;
-    
-}
-
-
-
-.grid-inicio {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-.boton{
-     width: 150px;
-    height: 35px;
-    line-height: 25px;
-    top: 7px;
-    right: 8px;
-    background: red;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    border-radius: 5%;
-    cursor: pointer;
-    
-}
-#imagenClarovideo {
-    width: 80%;
-    height: auto;
-}
-
-.grid-botones {
-   
-    background-color: black;
-    right: 80px;
-    top: 400px;
-    background-blend-mode: color;
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
-
-.imagenGrid {
-    width: 30%;
-    height: auto;
-    display: inline-block;
- 
