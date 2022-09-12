@@ -162,6 +162,21 @@ div .mainHead {
 table,
 th,
 td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 0px solid black;
+    border-collapse: separate;
+    border-radius: 1em;
+    
+    padding: 20px;
 }
+
+th{
+    background: #0272BA;
+    }
+.azul {
+    background: #65BFEF;
+}
+td{
+    background: white;
+    
+}
+
